@@ -22,7 +22,7 @@
 <body>
     <nav class="navbar is-dark" roll="navigation" aria-label="main-navigation">
         <div class="navbar-brand">
-            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <a role="button" class="navbar-burger burger" data-target="navMenu" onclick="toggleBurger()">
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
                 <span aria-hidden="true"></span>
@@ -53,17 +53,12 @@
         More coming soon...
     </p>
     <script>
-        $(document).ready(function () {
-
-            // Check for click events on the navbar burger icon
-            $(".navbar-burger").click(function () {
-
-                // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-                $(".navbar-burger").toggleClass("is-active");
-                $(".navbar-menu").toggleClass("is-active");
-
-            });
-        });
+        function toggleBurger() {
+            var burger = $('.burger');
+            var menu = $('.navbar-menu');
+            burger.toggleClass('is-active');
+            menu.toggleClass('is-active');
+        }
     </script>
 </body>
 
