@@ -4,6 +4,6 @@ Hi there.
 
 # Next Ideas
 
-- fencing page that leads to fencing links instead of dropdown on menu
-- navbar the same for all pages - home and fencing
-- move complaints button somewhere else - at bottom
+- daily image page
+- daily drawing page based on 642 things to draw
+- figure out if want to implement java page
