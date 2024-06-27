@@ -4,6 +4,7 @@ Hi there.
 
 # Next Ideas
 
-- daily image page
-- daily drawing page based on 642 things to draw
-- figure out if want to implement java page
+- Contact page
+- finishing f1 in schools page
+- adding to the fencing page?
+- adding spa f1 grand prix 2024 page?
